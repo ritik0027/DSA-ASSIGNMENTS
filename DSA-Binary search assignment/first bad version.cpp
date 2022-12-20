@@ -2,7 +2,7 @@
     int low=1,high=n;
     int mid;
     while(low<=high){
-      mid=low+(high-low)/2;
+      mid=(low+high)/2;
       if(isBadVersion(mid)== true){
           if(isBadVersion(mid-1)==false){
               return mid;
