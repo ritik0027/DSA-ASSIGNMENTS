@@ -24,7 +24,7 @@ void solve(){
 	cin>>n>>m;
 	vector<int>A(n);
 	for(int i=0;i<n;i++) cin>>A[i];
-	while(m==0){
+	while(m!=0){
 		cin>>p;
 		cout<<left_search(A,p)+1<<"\n";
 		m--;
